@@ -25,10 +25,13 @@ ph_PLUGIN-DESCRIPTION
 
 ### Latest changes to the main branch
 
+* New: Add package.json with development scripts
+* New: Backport code, styles and scripts from cm theme
+
 
 ### Previous changes
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/plugin-template/blob/main/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/mdibella-dev/cm-faq/blob/main/CHANGELOG.md).
 
 <br>
 
