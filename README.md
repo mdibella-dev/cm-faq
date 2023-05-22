@@ -13,11 +13,11 @@ This plugin provides a custom post type for managing and a shortcode for display
 
 ### Requires at least
 
-* WordPress ph_WORDPRESS-MINIMUM-VERSION
+* WordPress 6
 
 ### Tested up to
 
-* WordPress ph_WORDPRESS-VERSION
+* WordPress 6.2
 
 <br>
 
@@ -31,10 +31,10 @@ This plugin provides a custom post type for managing and a shortcode for display
 
 ### Previous changes
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/cm-faq/blob/main/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/mdibella-dev/cm-theme-addon-faq/blob/main/CHANGELOG.md).
 
 <br>
 
 ## License
 
-This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/cm-faq/blob/main/LICENSE.md) for further details.
+This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/cm-theme-addon-faq/blob/main/LICENSE.md) for further details.

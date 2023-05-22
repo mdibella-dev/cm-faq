@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:         CM &mdash; FAQ (addon to CM theme)
- * Plugin URI:          https://github.com/mdibella-dev/cm-faq
+ * Plugin URI:          https://github.com/mdibella-dev/cm-theme-addon-faq
  * Description:         This plugin provides a custom post type for managing and a shortcode for displaying so-called FAQs.
  * Author:              Marco Di Bella
  * Author URI:          https://www.marcodibella.de
