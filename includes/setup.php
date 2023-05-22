@@ -88,7 +88,7 @@ function plugin_enqueue_scripts()
 {
     wp_enqueue_script(
         'cm-faq-script',
-        PLUGIN_DIR . '/assets/build/js/frontend.min.js',
+        PLUGIN_URL . '/assets/build/js/frontend.min.js',
         array( 'jquery' ),
         PLUGIN_VERSION,
         true
@@ -96,7 +96,7 @@ function plugin_enqueue_scripts()
 
     wp_enqueue_style(
         'cm-faq-style',
-        PLUGIN_DIR . '/assets/build/css/frontend.min.css',
+        PLUGIN_URL . '/assets/build/css/frontend.min.css',
         array(),
         PLUGIN_VERSION
     );
