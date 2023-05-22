@@ -1,0 +1,22 @@
+/**
+ * Frontend styles for this plugin.
+ *
+ * @author  Marco Di Bella <mdb@marcodibella.de>
+ * @package cm-faq
+ */
+
+
+
+/** Third party libraries */
+
+@import 'vendors/normalize/_normalize';
+
+
+/** Mixins */
+
+@import 'mixins/_breakpoints';
+
+
+/** Shortcodes */
+
+@import "shortcodes/_shortcode-faq";
