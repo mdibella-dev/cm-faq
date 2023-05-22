@@ -3,10 +3,10 @@
  * Functions to handle the backend.
  *
  * @author  Marco Di Bella
- * @package ph_PLUGIN-PACKAGE
+ * @package cm-faq
  */
 
-namespace ph_PLUGIN_NAMESPACE;
+namespace cm_faq;
 
 
 /** Prevent direct access */
@@ -26,4 +26,4 @@ function admin_enqueue_scripts()
     // Do something!
 }
 
-add_action( 'admin_enqueue_scripts','ph_PLUGIN_NAMESPACE\admin_enqueue_scripts' );
+add_action( 'admin_enqueue_scripts','cm_faq\admin_enqueue_scripts' );
