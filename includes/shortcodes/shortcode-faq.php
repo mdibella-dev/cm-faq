@@ -20,24 +20,23 @@ defined( 'ABSPATH' ) or exit;
  *
  * @since 1.0.0
  *
- * @param array $atts The attributes (parameters) of the shorcode.
- *                    - faq The selected FAQ set.
+ * @param array  $atts    The attributes (parameters) passed with the shortcode.
+ *                        - faq The selected FAQ set.
+ * @param string $content The content bracketed by the shortcode.
  *
- * @return string The output produced by the shortcode.
+ * @return string The rendered output.
  */
 
-function render_shortcode_faq( $atts, $content = null )
+function shortcode_faq( $atts, $content = null )
 {
-    /** Determine passed parameters. */
-
+    // Read out parameters
     $default_atts = array(
         'faq' => '',
     );
     extract( shortcode_atts( $default_atts, $atts ) );
 
 
-    /** Do the shortcode stuff and start the output. */
-
+    // Perform output
     if( have_rows( 'faq', $faq ) ) :
         ob_start();
         ?>
@@ -73,4 +72,4 @@ function render_shortcode_faq( $atts, $content = null )
     return null;
 }
 
-add_shortcode( 'faq', 'cm_faq\render_shortcode_faq' );
+add_shortcode( 'faq', 'cm_faq\shortcode_faq' );
