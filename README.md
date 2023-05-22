@@ -37,4 +37,4 @@ See [CHANGELOG.md](https://github.com/mdibella-dev/cm-faq/blob/main/CHANGELOG.md
 
 ## License
 
-This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/plugin-template/blob/main/LICENSE.md) for further details.
+This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/cm-faq/blob/main/LICENSE.md) for further details.
