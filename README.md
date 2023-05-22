@@ -1,5 +1,5 @@
 #  CM &mdash; FAQ (addon to CM theme)
-This plugin provides a custom post type for managing and a shortcode for displaying so-called FAQs.
+This plugin is an addon to WordPress theme CM. It provides a custom post type via which so-called Frequently Asked Question lists can be created and edited. The display of a FAQ list is done via a shortcode.
 
 <br>
 
@@ -9,7 +9,7 @@ This plugin provides a custom post type for managing and a shortcode for display
 [Marco Di Bella ](https://github.com/mdibella-dev)
 
 ### Tags
-...
+custom-post-types, advanced-custom-fields, translation-ready, shortcodes
 
 ### Requires at least
 
