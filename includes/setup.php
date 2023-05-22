@@ -3,7 +3,7 @@
  * Functions to activate, initiate and deactivate the plugin.
  *
  * @author  Marco Di Bella
- * @package cm-faq
+ * @package cm-theme-addon-faq
  */
 
 namespace cm_faq;

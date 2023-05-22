@@ -3,7 +3,7 @@
  * Shortcode [faq].
  *
  * @author  Marco Di Bella
- * @package cm-faq
+ * @package cm-theme-addon-faq
  */
 
 namespace cm_faq;
