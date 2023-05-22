@@ -17,7 +17,7 @@
  * @package cm-theme-addon-faq
  */
 
-namespace cm_faq;
+namespace cm_theme_addon_faq;
 
 
 /** Prevent direct access */

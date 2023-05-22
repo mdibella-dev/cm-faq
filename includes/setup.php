@@ -6,7 +6,7 @@
  * @package cm-theme-addon-faq
  */
 
-namespace cm_faq;
+namespace cm_theme_addon_faq;
 
 
 /** Prevent direct access */
@@ -27,7 +27,7 @@ function plugin_init()
     load_plugin_textdomain( 'cm-faq', false, plugin_basename( PLUGIN_DIR ) . '/languages' );
 }
 
-add_action( 'init', 'cm_faq\plugin_init' );
+add_action( 'init', 'cm_theme_addon_faq\plugin_init' );
 
 
 
@@ -42,7 +42,7 @@ function plugin_activation()
     // Do something!
 }
 
-register_activation_hook( __FILE__, 'cm_faq\plugin_activation' );
+register_activation_hook( __FILE__, 'cm_theme_addon_faq\plugin_activation' );
 
 
 
@@ -57,7 +57,7 @@ function plugin_deactivation()
     // Do something!
 }
 
-register_deactivation_hook( __FILE__, 'cm_faq\plugin_deactivation' );
+register_deactivation_hook( __FILE__, 'cm_theme_addon_faq\plugin_deactivation' );
 
 
 
@@ -74,7 +74,7 @@ function plugin_uninstall()
     // Delete custom tables!
 }
 
-register_uninstall_hook( __FILE__, 'cm_faq\plugin_uninstall' );
+register_uninstall_hook( __FILE__, 'cm_theme_addon_faq\plugin_uninstall' );
 
 
 
@@ -102,4 +102,4 @@ function plugin_enqueue_scripts()
     );
 }
 
-add_action( 'wp_enqueue_scripts', 'cm_faq\plugin_enqueue_scripts', 9990 );
+add_action( 'wp_enqueue_scripts', 'cm_theme_addon_faq\plugin_enqueue_scripts', 9990 );

@@ -6,7 +6,7 @@
  * @package cm-theme-addon-faq
  */
 
-namespace cm_faq;
+namespace cm_theme_addon_faq;
 
 
 /** Prevent direct access */
@@ -26,4 +26,4 @@ function admin_enqueue_scripts()
     // Do something!
 }
 
-add_action( 'admin_enqueue_scripts','cm_faq\admin_enqueue_scripts' );
+add_action( 'admin_enqueue_scripts','cm_theme_addon_faq\admin_enqueue_scripts' );
