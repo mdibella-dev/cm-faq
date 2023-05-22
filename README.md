@@ -1,5 +1,5 @@
-# ph_PLUGIN-TITLE
-ph_PLUGIN-DESCRIPTION
+#  CM &mdash; FAQ (addon to CM theme)
+This plugin provides a custom post type for managing and a shortcode for displaying so-called FAQs.
 
 <br>
 
