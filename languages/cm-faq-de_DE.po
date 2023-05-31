@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CM &mdash; FAQ (addon to CM theme)\n"
+"POT-Creation-Date: 2023-05-31 13:24+0200\n"
+"PO-Revision-Date: 2023-05-31 13:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+msgid "CM &mdash; FAQ (addon to CM theme)"
+msgstr "CM &mdash; FAQ (Addon zum CM-Theme)"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mdibella-dev/cm-theme-addon-faq"
+msgstr "https://github.com/mdibella-dev/cm-theme-addon-faq"
+
+#. Description of the plugin/theme
+msgid "Provides a FAQ accordion list."
+msgstr "Stellt eine FAQ-Akkordeonliste bereit."
+
+#. Author of the plugin/theme
+msgid "Marco Di Bella"
+msgstr "Marco Di Bella"
+
+#. Author URI of the plugin/theme
+msgid "https://www.marcodibella.de"
+msgstr "https://www.marcodibella.de"
