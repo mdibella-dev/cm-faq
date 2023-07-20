@@ -30,9 +30,9 @@ defined( 'ABSPATH' ) or exit;
 function shortcode_faq( $atts, $content = null )
 {
     // Read out parameters
-    $default_atts = array(
+    $default_atts = [
         'faq' => '',
-    );
+    ];
     extract( shortcode_atts( $default_atts, $atts ) );
 
 
