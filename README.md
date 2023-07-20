@@ -30,6 +30,7 @@ custom-post-types, advanced-custom-fields, translation-ready, shortcodes
 * New: Add DE translation.
 * Improve: Add namespace var to hooks
 * Improve: Change array notation
+* Improve: Change title
 
 ### Previous changes
 
