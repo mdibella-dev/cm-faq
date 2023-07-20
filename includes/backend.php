@@ -26,4 +26,4 @@ function admin_enqueue_scripts()
     // Do something!
 }
 
-add_action( 'admin_enqueue_scripts','cm_theme_addon_faq\admin_enqueue_scripts' );
+add_action( 'admin_enqueue_scripts',__NAMESPACE__ . '\admin_enqueue_scripts' );

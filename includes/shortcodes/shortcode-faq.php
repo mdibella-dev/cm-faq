@@ -72,4 +72,4 @@ function shortcode_faq( $atts, $content = null )
     return null;
 }
 
-add_shortcode( 'faq', 'cm_theme_addon_faq\shortcode_faq' );
+add_shortcode( 'faq', __NAMESPACE__ . '\shortcode_faq' );
