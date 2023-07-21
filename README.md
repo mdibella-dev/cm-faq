@@ -1,5 +1,7 @@
-#  CM theme &mdash; Addon: FAQ
-This plugin is an addon to the WordPress based [CM theme](https://github.com/mdibella-dev/cm). It provides a custom post type via which so-called Frequently Asked Question (FAQ) lists can be created and edited. The display of a FAQ list is done via a shortcode.
+#  CM Theme &mdash; Addon: FAQ
+This plugin is an addon to the WordPress based [CM Theme](https://github.com/mdibella-dev/cm).
+It provides a custom post type via which so-called Frequently Asked Question (FAQ) lists can be created and edited.
+The display of a FAQ list is done via a shortcode.
 
 <br>
 
@@ -25,7 +27,7 @@ custom-post-types, advanced-custom-fields, translation-ready, shortcodes
 
 ### Latest changes to the main branch
 
-* New: Backport code, styles and scripts from CM theme
+* New: Backport code, styles and scripts from [CM Theme](https://github.com/mdibella-dev/cm)
 * New: Add package.json with development scripts
 * New: Add DE translation.
 * Improve: Add namespace var to hooks

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:         CM theme &mdash; Addon: FAQ
+ * Plugin Name:         CM Theme &mdash; Addon: FAQ
  * Plugin URI:          https://github.com/mdibella-dev/cm-theme-addon-faq
  * Description:         Provides a FAQ accordion list.
  * Author:              Marco Di Bella
