@@ -24,13 +24,13 @@ defined( 'ABSPATH' ) or exit;
 function post_type_faq__register()
 {
     $labels = [
-        'name'          => esc_html__( 'FAQ', 'cm-faq' ),
-        'singular_name' => esc_html__( 'FAQ', 'cm-faq' ),
-        'all_items'     => esc_html__( 'FAQ', 'cm-faq' ),
+        'name'          => __( 'FAQ', 'cm-faq' ),
+        'singular_name' => __( 'FAQ', 'cm-faq' ),
+        'all_items'     => __( 'FAQ', 'cm-faq' ),
     ];
 
     $args = [
-        'label'                 => esc_html__( 'FAQ', 'cm-faq' ),
+        'label'                 => __( 'FAQ', 'cm-faq' ),
         'labels'                => $labels,
         'description'           => '',
         'public'                => true,
