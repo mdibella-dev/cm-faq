@@ -35,9 +35,8 @@ define( __NAMESPACE__ . '\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 
 /** Include files */
+require_once( PLUGIN_DIR . 'includes/post-types/post-type-faq.php' );
+require_once( PLUGIN_DIR . 'includes/shortcodes/shortcode-faq.php' );
 
 require_once( PLUGIN_DIR . 'includes/setup.php' );
 require_once( PLUGIN_DIR . 'includes/backend.php' );
-
-require_once( PLUGIN_DIR . 'includes/post-types/post-type-faq.php' );
-require_once( PLUGIN_DIR . 'includes/shortcodes/shortcode-faq.php' );
