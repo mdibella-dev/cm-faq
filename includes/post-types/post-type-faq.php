@@ -21,8 +21,8 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function post_type_faq__register()
-{
+function post_type_faq__register() {
+    
     $labels = [
         'name'          => __( 'FAQ', 'cm-faq' ),
         'singular_name' => __( 'FAQ', 'cm-faq' ),

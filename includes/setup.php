@@ -21,8 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function plugin_init()
-{
+function plugin_init() {
     // Load text domain, use relative path to the plugin's language folder
     load_plugin_textdomain( 'cm-faq', false, plugin_basename( PLUGIN_DIR ) . '/languages' );
 }
@@ -37,8 +36,7 @@ add_action( 'init', __NAMESPACE__ . '\plugin_init' );
  * @since 1.0.0
  */
 
-function plugin_activation()
-{
+function plugin_activation() {
     // Do something!
 }
 
@@ -52,8 +50,7 @@ register_activation_hook( __FILE__, __NAMESPACE__ . '\plugin_activation' );
  * @since 1.0.0
  */
 
-function plugin_deactivation()
-{
+function plugin_deactivation() {
     // Do something!
 }
 
@@ -84,8 +81,8 @@ register_uninstall_hook( __FILE__, __NAMESPACE__ . '\plugin_uninstall' );
  * @since 1.0.0
  */
 
-function plugin_enqueue_scripts()
-{
+function plugin_enqueue_scripts() {
+
     wp_enqueue_script(
         'cm-faq-script',
         PLUGIN_URL . '/assets/build/js/frontend.min.js',

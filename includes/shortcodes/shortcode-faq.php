@@ -27,8 +27,8 @@ defined( 'ABSPATH' ) or exit;
  * @return string The rendered output.
  */
 
-function shortcode_faq( $atts, $content = null )
-{
+function shortcode_faq( $atts, $content = null ) {
+    
     // Read out parameters
     $default_atts = [
         'faq' => '',

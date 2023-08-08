@@ -21,8 +21,7 @@ defined( 'ABSPATH' ) or exit;
  * @since 1.0.0
  */
 
-function admin_enqueue_scripts()
-{
+function admin_enqueue_scripts() {
     // Do something!
 }
 
