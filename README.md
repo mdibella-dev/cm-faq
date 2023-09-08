@@ -15,11 +15,11 @@ custom-post-types, advanced-custom-fields, translation-ready, shortcodes
 
 ### Requires at least
 
-* WordPress 6
+- WordPress 6
 
 ### Tested up to
 
-* WordPress 6.2
+- WordPress 6.2
 
 <br>
 
@@ -27,14 +27,14 @@ custom-post-types, advanced-custom-fields, translation-ready, shortcodes
 
 ### Latest changes to the main branch
 
-* New: Backport code, styles and scripts from [CM Theme](https://github.com/mdibella-dev/cm)
-* New: Add package.json with development scripts
-* New: Add DE translation.
-* New: Add faq post type registration (remove CPT UI dependency)
-* Improve: Add namespace var to hooks
-* Improve: Change array notation
-* Improve: Change title
-* Improve: Change clamping style
+- New: Backport code, styles and scripts from [CM Theme](https://github.com/mdibella-dev/cm)
+- New: Add package.json with development scripts
+- New: Add DE translation.
+- New: Add faq post type registration (remove CPT UI dependency)
+- Improve: Add namespace var to hooks
+- Improve: Change array notation
+- Improve: Change title
+- Improve: Change clamping style
 
 ### Previous changes
 
