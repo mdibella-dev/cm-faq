@@ -9,7 +9,7 @@
  * Requires at least:   6
  * Tested up to:        6.2
  * Requires PHP:        7
- * Version:             1.0.0
+ * Version:             1.0.1
  * Text Domain:         cm-faq
  * Domain Path:         /languages
  *
@@ -28,7 +28,7 @@ defined( 'ABSPATH' ) or exit;
 
 /** Variables and definitions */
 
-define( __NAMESPACE__ . '\PLUGIN_VERSION', '1.0.0' );
+define( __NAMESPACE__ . '\PLUGIN_VERSION', '1.0.1' );
 define( __NAMESPACE__ . '\PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( __NAMESPACE__ . '\PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

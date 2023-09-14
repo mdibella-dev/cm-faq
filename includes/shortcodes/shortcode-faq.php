@@ -28,7 +28,7 @@ defined( 'ABSPATH' ) or exit;
  */
 
 function shortcode_faq( $atts, $content = null ) {
-    
+
     // Read out parameters
     $default_atts = [
         'faq' => '',
@@ -37,14 +37,14 @@ function shortcode_faq( $atts, $content = null ) {
 
 
     // Perform output
-    if( have_rows( 'faq', $faq ) ) :
+    if ( have_rows( 'faq', $faq ) ) {
         ob_start();
         ?>
 
         <div class="faq-accordion">
             <ul>
                 <?php
-                while( have_rows( 'faq', $faq ) ) :
+                while ( have_rows( 'faq', $faq ) ) {
                     the_row();
                 ?>
                 <li class="faq-element">
@@ -58,7 +58,7 @@ function shortcode_faq( $atts, $content = null ) {
                     </div>
                 </li>
                 <?php
-                endwhile;
+                }
                 ?>
             </ul>
         </div>
@@ -67,7 +67,7 @@ function shortcode_faq( $atts, $content = null ) {
         $output = ob_get_contents();
         ob_end_clean();
         return $output;
-    endif;
+    }
 
     return null;
 }
